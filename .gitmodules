@@ -1,0 +1,9 @@
+[submodule "vendor/opus-motion-library"]
+	path = vendor/opus-motion-library
+	url = https://github.com/GovinduSasanka/opus-motion-library.git
+[submodule "vendor/OpenMontage"]
+	path = vendor/OpenMontage
+	url = https://github.com/OpenMontageInc/OpenMontage.git
+[submodule "vendor/sfx-kit"]
+	path = vendor/sfx-kit
+	url = https://github.com/wyzowl/sfx-kit.git
