@@ -1,0 +1,13 @@
+diff --git a/cli/mgl.mjs b/cli/mgl.mjs
+index 841380a..7643117 100644
+--- a/cli/mgl.mjs
++++ b/cli/mgl.mjs
+@@ -69,7 +69,7 @@ const serve = async () => {
+ };
+ 
+ let browser;
+-const getBrowser = async () => (browser ??= await openBrowser('chrome', {chromiumOptions: {gl: 'angle'}}));
++const getBrowser = async () => (browser ??= await openBrowser('chrome', {browserExecutable: process.env.REMOTION_BROWSER_EXECUTABLE ?? null, chromiumOptions: {gl: 'angle', enableMultiProcessOnLinux: true}}));
+ 
+ const renderOne = async (compId, inputProps, out, media = {codec: 'h264', crf: 18, pixelFormat: 'yuv420p', audioCodec: 'aac'}) => {
+   const serveUrl = await serve();

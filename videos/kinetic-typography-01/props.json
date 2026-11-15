@@ -1,0 +1,25 @@
+{
+  "lines": [
+    {"text": "Jangan scroll dulu", "accent": "scroll"},
+    {"text": "Awak cuma ada", "accent": "cuma"},
+    {"text": "3 saat", "accent": "3"},
+    {"text": "Untuk tarik perhatian", "accent": "tarik"},
+    {"text": "Buat setiap saat", "accent": "setiap"},
+    {"text": "Nampak macam pro", "accent": "pro"},
+    {"text": "Follow untuk tips", "accent": "Follow"}
+  ],
+  "layout": "stack",
+  "beatFrames": 9,
+  "holdBeats": 2.2,
+  "font": "display",
+  "align": "center",
+  "uppercase": true,
+  "capHeight": 0.085,
+  "push": 0.06,
+  "shake": 6,
+  "flash": true,
+  "showIndex": false,
+  "background": "#0B0B0F",
+  "ink": "#F5F2EA",
+  "accent": "#FFD400"
+}
